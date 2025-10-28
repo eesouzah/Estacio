@@ -8,7 +8,7 @@ export class ControleEditoraService {
   private editoras: Array<Editora> = [
     new Editora(1, "Angular LTDA"),
     new Editora(2, "Est Dados"),
-    new Editora(3, "Mod Web")
+    new Editora(3, "Web Mod")
   ];
 
   getEditoras(): Array<Editora> {
