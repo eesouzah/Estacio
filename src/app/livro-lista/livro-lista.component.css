@@ -1,0 +1,12 @@
+table {
+  font-size: 0.9rem;
+}
+
+td ul {
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+
+td button {
+  font-size: 0.8rem;
+}
