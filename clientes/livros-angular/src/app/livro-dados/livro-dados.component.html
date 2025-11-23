@@ -1,0 +1,8 @@
+<h2>Adicionar Livro</h2>
+<form (ngSubmit)="incluir()">
+  <label>Título: <input [(ngModel)]="livro.titulo" name="titulo" required></label><br>
+  <label>Resumo: <textarea [(ngModel)]="livro.resumo" name="resumo"></textarea></label><br>
+  <label>Código Editora: <input type="number" [(ngModel)]="livro.codEditora" name="codEditora"></label><br>
+  <label>Autores (separados por vírgula): <input [(ngModel)]="autoresTexto" name="autores"></label><br>
+  <button type="submit">Salvar</button>
+</form>

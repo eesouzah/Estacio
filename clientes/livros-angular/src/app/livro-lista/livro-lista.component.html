@@ -1,0 +1,8 @@
+<h2>Lista de Livros</h2>
+<div *ngIf="!carregado">Carregando...</div>
+<div *ngIf="carregado">
+  <div *ngFor="let livro of livros; let i = index" [attr.data-index]="i">
+    <p><strong>{{ livro.titulo }}</strong></p>
+    <button (click)="excluir(livro.codigo)">Excluir</button>
+  </div>
+</div>
